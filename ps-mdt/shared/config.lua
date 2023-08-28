@@ -19,15 +19,15 @@ Config.QBManagementUse = false
 -- Set up your inventory to automatically retrieve images when a weapon is registered at a weapon shop or self-registered.
 -- If you're utilizing lj-inventory's latest version from GitHub, no further modifications are necessary. 
 -- However, if you're using a different inventory system, please refer to the "Inventory Edit | Automatic Add Weapons with images" section in ps-mdt's README.
-Config.InventoryForWeaponsImages = "ox_inventory"
+Config.InventoryForWeaponsImages = "lj-inventory"
 
 -- "LegacyFuel", "lj-fuel", "ps-fuel"
-Config.Fuel = "cdn-fuel"
+Config.Fuel = "ps-fuel"
 
 -- Google Docs Link
 Config.sopLink = {
-    ['police'] = 'https://docs.google.com/document/d/1ZJXyTpRBsBB-4YMtGVWxVdmOC-4NHiY5UhQWKSWft6w/edit',
-    ['ambulance'] = 'https://docs.google.com/document/d/1xGKTuK7qCw1dteammXJ0Mo0CVXIarYwTP8VqWApWBvA/edit',
+    ['police'] = '',
+    ['ambulance'] = '',
     ['bcso'] = '',
     ['doj'] = '',
     ['sast'] = '',
@@ -39,8 +39,8 @@ Config.sopLink = {
 
 -- Google Docs Link
 Config.RosterLink = {
-    ['police'] = 'https://docs.google.com/spreadsheets/d/1-BGqFW0FI1G22R_OyQYs3j1yMDr_DWzPvc0ck1EHu_4/edit#gid=2013888748',
-    ['ambulance'] = 'https://docs.google.com/spreadsheets/d/1bWX69QuhWh2hZtVJJAIfaENIEw1mO5OGn3KfIHcyjg0/edit#gid=0',
+    ['police'] = '',
+    ['ambulance'] = '',
     ['bcso'] = '',
     ['doj'] = '',
     ['sast'] = '',
